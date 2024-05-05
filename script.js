@@ -100,3 +100,23 @@ function fixNav() {
     navbar.classList.remove("sticky");
   }
 }
+
+// overlay
+const navBtn = document.querySelector(".nav-btn");
+const overlay = document.querySelector(".overlay");
+const navHamSpan = document.querySelector(
+  "#nav>.nav-btn>label>span:nth-of-type(1)"
+);
+const navHamSpan2 = document.querySelector(
+  "#nav>.nav-btn>label>span:nth-of-type(2)"
+);
+const navHamSpan3 = document.querySelector(
+  "#nav>.nav-btn>label>span:nth-of-type(3)"
+);
+
+navBtn.addEventListener("click", () => {
+  overlay.classList.toggle("activate");
+  navHamSpan.classList.toggle("activate");
+  navHamSpan2.classList.toggle("activate");
+  navHamSpan3.classList.toggle("activate");
+});
