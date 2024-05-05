@@ -304,10 +304,10 @@ body {
   .hero-section .left .hero-subtitle {
     /* font-size: 20px; */
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 2;
   }
   .hero-section .left .hero-subtitle.para {
     font-size: 10px;
-    line-height: 1.5;
+    line-height: 2;
   }
 }
