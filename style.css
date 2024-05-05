@@ -287,7 +287,8 @@ body {
     font-size: 14px;
   }
   nav > .nav-btn > label {
-    margin: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
   }
   /*  */
   #nav {
