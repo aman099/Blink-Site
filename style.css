@@ -154,10 +154,14 @@ body {
     transition: 1s ease;
   }
   .overlay.activate {
-    position: absolute;
+    position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+  }
+
+  #nav.sticky > .nav-btn > label > span {
+    border-top: 2px solid #fff;
   }
 
   #nav > .nav-btn > label > span:nth-of-type(1),
