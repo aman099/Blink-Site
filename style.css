@@ -175,6 +175,8 @@ body {
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    /*  */
+    transition: 1s ease;
   }
 
   #nav.sticky > .nav-btn > label > span {
@@ -205,6 +207,10 @@ body {
   #nav ul {
     box-shadow: none;
     transition: 1s ease;
+    /*  */
+    gap: 2rem;
+    align-items: center;
+    padding-top: 10px;
   }
   #nav.sticky ul {
     background-color: black;
@@ -254,7 +260,7 @@ body {
   }
   .hero-section .left .hero-subtitle.para {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.8;
   }
   .hero-section .left .hero-subtitle.para br {
     display: none;
