@@ -91,6 +91,7 @@ observer6.observe(heroSubTitle5);
 
 //
 const navbar = document.querySelector("#nav");
+
 window.addEventListener("scroll", fixNav);
 
 function fixNav() {
