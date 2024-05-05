@@ -239,7 +239,7 @@ body {
 
   /* Hero section */
   #hero-2 .left .hero-title {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   #hero-3 .left .hero-title br {
     display: none;
@@ -297,6 +297,7 @@ body {
   }
   .hero-section .left .hero-title {
     font-size: 18px;
+    margin-bottom: 1.5rem;
     /* line-height: 1.2; */
   }
   .hero-section .left .hero-subtitle {
