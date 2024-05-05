@@ -21,9 +21,17 @@ nav > ul li a:hover {
 nav > ul li a.active {
   background-color: transparent;
   color: #000;
+  /*  */
+  transition: 0.4s ease;
+}
+#nav.sticky > ul li a:hover {
+  color: #fff;
+}
+#nav.sticky > ul li a.active {
+  color: #fff;
 }
 nav > header > img {
-  width: 7.5rem;
+  width: 5.5rem;
 }
 /*  */
 
@@ -62,6 +70,15 @@ body {
   padding: 60px;
   padding-left: 0px;
   padding-right: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /*  */
+  transition: 1s ease;
+}
+#nav.sticky {
+  background-color: black;
+  color: #fff;
+  padding: 44px 20px 44px 0px;
 }
 
 .hero-section {
@@ -136,10 +153,16 @@ body {
   #nav {
     padding-top: 40px;
     padding-bottom: 40px;
+    /*  */
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  #nav.sticky > ul li a.active {
+    color: #000;
   }
 
   #nav header img {
-    width: 60px;
+    /* width: 60px; */
   }
   /* Pari navbar class */
   nav header {
@@ -147,8 +170,13 @@ body {
   }
   nav > .nav-btn > label {
     /* margin: 90px; */
+    margin-top: 20px;
     margin-right: 20px;
+    border-radius: 10px;
+    /*  */
+    transition: 1s ease;
   }
+
   nav > ul {
     gap: 1.4rem;
   }

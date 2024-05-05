@@ -88,3 +88,15 @@ const observer6 = new IntersectionObserver(function (entries, observer6) {
   });
 }, options6);
 observer6.observe(heroSubTitle5);
+
+//
+const navbar = document.querySelector("#nav");
+window.addEventListener("scroll", fixNav);
+
+function fixNav() {
+  if (window.scrollY > navbar.offsetHeight - 50) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
